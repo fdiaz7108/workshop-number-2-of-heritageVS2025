@@ -8,7 +8,7 @@
 
         public double D1
         {
-            get { return D1; }
+            get { return d1; }
             set
             {
                 ValidateD1(value);
@@ -17,7 +17,7 @@
         }
         public double D2
         {
-            get { return D2; }
+            get { return d2; }
             set
             {
                 ValidateD2(value);

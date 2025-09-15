@@ -15,7 +15,7 @@
         }
         public double H
         {
-            get { return H; }
+            get { return h; }
             set
             {
                 ValidateH(value);
