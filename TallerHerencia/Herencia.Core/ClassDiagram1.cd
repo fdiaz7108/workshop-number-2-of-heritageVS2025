@@ -24,7 +24,7 @@
   <Class Name="Geometry.Trapeze">
     <Position X="4" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAFAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAEEAAAAFAAAAAA=</HashCode>
       <FileName>Trapeze.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -36,14 +36,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Geometry.Rectangle">
-    <Position X="6.5" Y="6" Width="1.5" />
+    <Position X="6.5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAEAAQAAEAEAAAA=</HashCode>
       <FileName>Rectangle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Geometry.Parallelogram">
-    <Position X="3.75" Y="4.5" Width="1.5" />
+    <Position X="3.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAEAQAAAEEAAAAA=</HashCode>
       <FileName>Parallelogram.cs</FileName>

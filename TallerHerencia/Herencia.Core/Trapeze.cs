@@ -2,10 +2,18 @@
 {
     public class Trapeze : Triangle
     {
-        public double D { get; set; }
+        private double d;
+        public double D
+        {
+            get { return d; }
+            set { ValidateD (value); 
+            d = value; }
+        }
+         
 
         public Trapeze(string name, double a, double b, double c, double d, double h) : base(name, a, b, c, h)
         {
+            ValidateD(d);
             D = d;
         }
 
@@ -18,5 +26,13 @@
         {
             return A + B + C + D;
         }
+        private void ValidateD(double d)
+        {
+            if (d <= 0)
+                throw new ArgumentException("El lado D del trapecio debe ser mayor que cero.");
+            if (double.IsNaN(d) || double.IsInfinity(d))
+                throw new ArgumentException("El lado D del trapecio debe ser un número válido.");
+        }
+
     }
 }
