@@ -13,12 +13,10 @@ namespace Geometry
 
         public abstract double GetArea();
         public abstract double GetPerimeter();
-        
 
-        public override string ToString()
-        {
-            return $"{Name}\t\t=>  Area...... {GetArea():F5}\tPerimeter: {GetPerimeter():F5}";
-        }
+
+        public override string ToString() =>
+            $"{Name,-15} =>   Area: {GetArea(),12:F5}    Perimeter: {GetPerimeter(),12:F5}";
 
     }
 }
